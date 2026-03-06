@@ -1,0 +1,26 @@
+{
+	"rules": {
+		"lowercase": { "enabled": true },
+		"language": { "enabled": true },
+		"symbols": { "enabled": true },
+		"sensitive": { "enabled": true }
+	},
+	"sensitive": {
+		"keywords": [
+			"password",
+			"passwd",
+			"pass",
+			"api_key",
+			"apikey",
+			"api-key",
+			"token",
+			"secret",
+			"credential",
+			"private_key",
+			"access_token"
+		]
+	},
+	"symbols": {
+		"forbidden": ["!", "?", "…", "🚀", "⭐", "🔥"]
+	}
+}
